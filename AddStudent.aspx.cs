@@ -62,13 +62,14 @@ namespace Lab_7
                 studentname.Text = string.Empty;
                 course.SelectedIndex = -1;
                 tabl.InnerText = "";
+
                 if (lblConfirmation.Text == "")
                 {
                     lblConfirmation.Text = "<table class=\"table table-bordered\">" + "<tr><th scope='col'>ID</th><th scope='col'>Name</th></tr>";
                 }
                 else
                 {
-                    lblConfirmation.Text += "<table class=\"table\">";
+                    lblConfirmation.Text += "<table class=\"table \">";
                 }
                 foreach (var j in students)
                 {

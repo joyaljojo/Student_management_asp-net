@@ -10,7 +10,7 @@
     <title>Student management</title>
     
 </head>
-<body class="container-md">
+<body class="container-sm">
     <h1>Students</h1>
     <form  runat="server">
         <div class="mb-3">
@@ -33,7 +33,7 @@
     </form>
    <asp:Label runat="server" ID="lblErrorMsg" CssClass="alert-danger"  ForeColor="Red"></asp:Label>
     <div runat="server" id="tabl">
-    <asp:table  class="table table-bordered">
+    <asp:table  class="table ">
         <table>
           <tr>
             <th scope="col">Id</th>
